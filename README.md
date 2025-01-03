@@ -9,13 +9,13 @@
 - Clone the repository
 
 ```
-git clone  https://github.com/tanvir-alam-sk/Assignment---3 hotel-management-server
+git clone  https://github.com/tanvir-alam-sk/React-Redux.git
 ```
 
 - Install dependencies
 
 ```
-cd <project_name>
+cd React-Redux
 npm install
 ```
 
