@@ -1,5 +1,4 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import photosSlice from '../slices/photoSlice'
 import likesSlice from '../slices/favoriteSlice'
 import storage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
@@ -22,12 +21,6 @@ export const store=configureStore({
     
 })
 
-// export const store=configureStore({
-//     reducer:{
-//         photos:photosSlice,
-//         likes:likesSlice
-//     }
-// })
 
 
 
