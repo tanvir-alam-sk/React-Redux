@@ -11,7 +11,8 @@ const favoriteSlice = createSlice({
         }
     },
     disLikePost:(state,action)=>{
-        state=state.filter((postId)=>postId!=action.payload)
+      const restPost=state.filter((post)=>post!=action.payload)
+      state=restPost
     }
   },
 

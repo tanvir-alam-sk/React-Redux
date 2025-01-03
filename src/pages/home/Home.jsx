@@ -15,15 +15,7 @@ export default function Home() {
       .then((data) => setPhotos(data));
   }, []);
   
-  // const allPhoto=useSelector((state)=>state)
-  // const loading=useSelector((state)=>state)
-  // console.log("allPhoto",allPhoto)
-  // useEffect(()=>{
-  //   if(!loading){
-  //     dispatch(fetchPhoto())
-  //   }
-  // },[loading,dispatch])
-  // console.log("allPhoto2",allPhoto)
+
 
   const dispatch=useDispatch()
   const favorite=useSelector((state)=>state.likes)
