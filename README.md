@@ -1,9 +1,5 @@
 # React + Redux
 
-# Pre-requisites
-
-- Install [Node.js](https://nodejs.org/en/) version 22.11.0
-
 # Getting started
 
 - Clone the repository
